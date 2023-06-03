@@ -1,0 +1,128 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.h6 {
+  color: aliceblue;
+  font-size: 0.8cm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2cm;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 90vw;
+  padding: 10px;
+  width: 400px;
+  background-color: rgb(56, 54, 54);
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  margin-top: 1.5cm;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.btn {
+  background-color: rgb(0, 153, 255);
+  color: white;
+  max-width: 90vw;
+  width: 150px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-top: 1.5cm;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 320px) {
+  .h6 {
+    margin-top: 1.5cm;
+  }
+
+  .card {
+    margin-top: 1cm;
+  }
+
+  .btn {
+    margin-top: 1cm;
+  }
+}
+
+@media only screen and (max-height: 667px) {
+  .h6 {
+    margin-top: 1.5cm;
+  }
+
+  .card {
+    margin-top: 1cm;
+  }
+
+  .btn {
+    margin-top: 1cm;
+  }
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: row-reverse;
+  justify-content: center;
+  text-align: center;
+  align-items: stretch;
+  align-content: center;
+}
+
+.image {
+  /* position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  width: 100vw;
+  max-height:80vh ; */
+  position: relative;
+  /* height: auto;
+  width: auto; */
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.child {
+  /*  height:20vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 5vh; */
+  background-color: rgb(26, 25, 25);
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding-top: 5vh;
+  position: fixed;
+  bottom: 0px;
+}
+
+.para {
+  padding-top: 3vh;
+  color: gray;
+  font-weight: 600;
+  font-size: 75%;
+}
+
+.btn:focus {
+  border: none;
+  outline: none;
+}

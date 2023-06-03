@@ -1,0 +1,40 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2cm;
+}
+.h6 {
+  color: aliceblue;
+  font-size: 0.8cm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5cm;
+}
+.para {
+  color: rgb(71, 68, 68);
+  font-size: 0.4cm;
+  margin-left: 0.8pc;
+  margin-top: 0.5cm;
+  font-weight: 700;
+}
+.card {
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90vw;
+  width: 400px;
+  background-color: rgb(56, 54, 54);
+  border-radius: 15px;
+  color: white;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.image {
+  border-radius: 20pc;
+}
